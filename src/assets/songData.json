@@ -1,0 +1,42 @@
+[
+  {
+    "title": "East Bay",
+    "duration": 311,
+    "resource": "https://www.youtube.com/watch?v=cOmBL2w-4uk",
+    "genre": "Jazz",
+    "thumbnail": "thumbnails/empire-central.jpg",
+    "artist": "Snarky Puppy"
+  },
+  {
+    "title": "Misery Moon",
+    "duration": 69,
+    "resource": "https://www.youtube.com/watch?v=TAJxruMPPoE",
+    "genre": "Alternative/Indie",
+    "thumbnail": "thumbnails/duality.jpg",
+    "artist": "Luna Li"
+  },
+  {
+    "title": "Dr. Johann Averies",
+    "duration": 234,
+    "resource": "https://www.youtube.com/watch?v=xdOTo8kuRSY",
+    "genre": "Alternative/Indie",
+    "thumbnail": "thumbnails/dr-johann-averies.png",
+    "artist": "Daneshevskaya"
+  },
+  {
+    "title": "Kingston",
+    "duration": 224,
+    "resource": "https://www.youtube.com/watch?v=-5_tGEao_GQ",
+    "genre": "Alternative/Indie",
+    "thumbnail": "thumbnails/atlanta-millionaires-club.jpg",
+    "artist": "Faye Webster"
+  },
+  {
+    "title": "Dance With You Tonight",
+    "duration": 158,
+    "resource": "https://www.youtube.com/watch?v=uA01QkPJeDw",
+    "genre": "R&B/Soul",
+    "thumbnail": "thumbnails/everything-i-know-about-love.jpg",
+    "artist": "Laufey"
+  }
+]
