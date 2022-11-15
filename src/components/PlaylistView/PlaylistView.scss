@@ -1,0 +1,48 @@
+@import '../../global/globalScssVars.scss';
+
+.playlist-view {
+	position: fixed;
+	top: 90px;
+	right: -245px;
+	width: 225px;
+	min-height: 100px;
+	background-color: lighten($--base-color, 5%);
+	border-radius: 10px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	align-items: center;
+	transition: box-shadow 0.3s, right 0.3s;
+
+	&.visible {
+		right: 100px;
+		transition: box-shadow 0.3s, right 0.3s;
+	}
+
+	h2 {
+		margin-top: 0;
+		text-align: center;
+	}
+
+	.clear-button {
+		border: none;
+		border-radius: 4px;
+		padding: 5px;
+		width: fit-content;
+		cursor: pointer;
+		background-color: darken($--base-color, 10%);
+		color: white;
+		transition: background-color 0.2s;
+
+		&:hover {
+			background-color: darken($--base-color, 5%);
+			transition: background-color 0.2s;
+		}
+
+		&:active {
+			background-color: darken($--base-color, 3%);
+			transition: background-color 0.2s;
+		}
+	}
+}

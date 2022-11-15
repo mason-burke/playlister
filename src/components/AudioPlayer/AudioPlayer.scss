@@ -1,0 +1,71 @@
+@import '../../global/globalScssVars.scss';
+
+.audio-player {
+	position: fixed;
+	bottom: -100px;
+	right: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  min-width: 350px;
+	background-color: lighten($--base-color, 5%);
+	border-radius: 10px;
+	padding: 10px;
+	gap: 10px;
+	transition: box-shadow 0.3s, bottom 0.3s;
+
+  &.visible {
+    bottom: 20px;
+    transition: box-shadow 0.3s, bottom 0.3s;
+  }
+
+	&:hover {
+		box-shadow: 0 2px 5px darken($--base-color, 10%);
+		transition: box-shadow 0.3s;
+	}
+
+	.song-thumbnail {
+		height: 50px;
+		width: 50px;
+		border-radius: 4px;
+	}
+
+	.song-play-button {
+		background-color: darken($--base-color, 10%);
+		border: none;
+		height: 50px;
+		width: 50px;
+		padding: 10px;
+		border-radius: 50%;
+		cursor: pointer;
+    transition: background-color 0.2s;
+
+		.play-button-icon {
+			padding: 3px 0 0 1px;
+		}
+
+		&:hover {
+			background-color: darken($--base-color, 15%);
+      transition: background-color 0.2s;
+		}
+
+		&:active {
+			background-color: darken($--base-color, 20%);
+      transition: background-color 0.2s;
+		}
+	}
+
+	.song-title {
+		padding: 0;
+		margin: 0;
+	}
+
+	.song-card-body {
+    width: calc(100% - 120px);
+
+		.song-details {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}

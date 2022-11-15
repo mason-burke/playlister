@@ -1,42 +1,110 @@
 [
-  {
-    "title": "East Bay",
-    "duration": 311,
-    "resource": "https://www.youtube.com/watch?v=cOmBL2w-4uk",
-    "genre": "Jazz",
-    "thumbnail": "thumbnails/empire-central.jpg",
-    "artist": "Snarky Puppy"
-  },
-  {
-    "title": "Misery Moon",
-    "duration": 69,
-    "resource": "https://www.youtube.com/watch?v=TAJxruMPPoE",
-    "genre": "Alternative/Indie",
-    "thumbnail": "thumbnails/duality.jpg",
-    "artist": "Luna Li"
-  },
-  {
-    "title": "Dr. Johann Averies",
-    "duration": 234,
-    "resource": "https://www.youtube.com/watch?v=xdOTo8kuRSY",
-    "genre": "Alternative/Indie",
-    "thumbnail": "thumbnails/dr-johann-averies.png",
-    "artist": "Daneshevskaya"
-  },
-  {
-    "title": "Kingston",
-    "duration": 224,
-    "resource": "https://www.youtube.com/watch?v=-5_tGEao_GQ",
-    "genre": "Alternative/Indie",
-    "thumbnail": "thumbnails/atlanta-millionaires-club.jpg",
-    "artist": "Faye Webster"
-  },
-  {
-    "title": "Dance With You Tonight",
-    "duration": 158,
-    "resource": "https://www.youtube.com/watch?v=uA01QkPJeDw",
-    "genre": "R&B/Soul",
-    "thumbnail": "thumbnails/everything-i-know-about-love.jpg",
-    "artist": "Laufey"
-  }
+	{
+		"title": "Herausweh",
+		"duration": 158,
+		"resource": "https://www.youtube.com/watch?v=oLzZZE50s2E",
+		"genre": "Jazz",
+		"thumbnail": "thumbnails/tape-3.jpg",
+		"artist": "Felbm",
+		"id": 0
+	},
+	{
+		"title": "East Bay",
+		"duration": 311,
+		"resource": "https://www.youtube.com/watch?v=cOmBL2w-4uk",
+		"genre": "Jazz",
+		"thumbnail": "thumbnails/empire-central.jpg",
+		"artist": "Snarky Puppy",
+		"id": 1
+	},
+	{
+		"title": "Misery Moon",
+		"duration": 69,
+		"resource": "https://www.youtube.com/watch?v=TAJxruMPPoE",
+		"genre": "Alternative/Indie",
+		"thumbnail": "thumbnails/duality.jpg",
+		"artist": "Luna Li",
+		"id": 2
+	},
+	{
+		"title": "Dr. Johann Averies",
+		"duration": 234,
+		"resource": "https://www.youtube.com/watch?v=xdOTo8kuRSY",
+		"genre": "Alternative/Indie",
+		"thumbnail": "thumbnails/dr-johann-averies.png",
+		"artist": "Daneshevskaya",
+		"id": 3
+	},
+	{
+		"title": "Kingston",
+		"duration": 224,
+		"resource": "https://www.youtube.com/watch?v=-5_tGEao_GQ",
+		"genre": "Alternative/Indie",
+		"thumbnail": "thumbnails/atlanta-millionaires-club.jpg",
+		"artist": "Faye Webster",
+		"id": 4
+	},
+	{
+		"title": "Dance With You Tonight",
+		"duration": 158,
+		"resource": "https://www.youtube.com/watch?v=uA01QkPJeDw",
+		"genre": "R&B/Soul",
+		"thumbnail": "thumbnails/everything-i-know-about-love.jpg",
+		"artist": "Laufey",
+		"id": 5
+	},
+	{
+		"title": "butterfly-s",
+		"duration": 93,
+		"resource": "https://www.youtube.com/watch?v=LlhkjhwjQEw",
+		"genre": "Breakcore",
+		"thumbnail": "thumbnails/butterfly-s.jpg",
+		"artist": "11vx",
+		"id": 6
+	},
+	{
+		"title": "ghost",
+		"duration": 189,
+		"resource": "https://www.youtube.com/watch?v=uQijFLNjk1w",
+		"genre": "Breakcore",
+		"thumbnail": "thumbnails/ghost.jpg",
+		"artist": "Zaphyre",
+		"id": 7
+	},
+	{
+		"title": "ghost",
+		"duration": 139,
+		"resource": "https://www.youtube.com/watch?v=dU28l-eC9cI",
+		"genre": "Dance/Electronic",
+		"thumbnail": "thumbnails/on-and-on.jpg",
+		"artist": "piri & tommy",
+		"id": 8
+	},
+	{
+		"title": "your tube",
+		"duration": 206,
+		"resource": "https://www.youtube.com/watch?v=ck558JNTfxI",
+		"genre": "Drum and Bass",
+		"thumbnail": "thumbnails/cat-steps.jpg",
+		"artist": "Daisuke Tanabe",
+		"id": 9
+	},
+	{
+		"title": "Nice Boys",
+		"duration": 181,
+		"resource": "https://www.youtube.com/watch?v=qA0sjK7ePdc",
+		"genre": "Alternative/Indie",
+		"thumbnail": "thumbnails/care.jpg",
+		"artist": "TEMPOREX",
+		"id": 10
+	},
+	{
+		"title": "Ahhhh, These Chains!",
+		"duration": 308,
+		"resource": "https://www.youtube.com/watch?v=WjQKPf1qkeY",
+		"genre": "Electronic",
+		"thumbnail": "thumbnails/crumbling.jpg",
+		"artist": "Mid-Air Thief",
+		"id": 11
+	}
 ]

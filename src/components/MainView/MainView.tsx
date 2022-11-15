@@ -1,41 +1,46 @@
 import React from 'react'
-import songData from '../../assets/songData.json'
 import { SongCard } from './SongCard/SongCard'
+import { song } from '../../global/globalUtils'
 import './MainView.scss'
 
 export interface IMainViewProps {
-  playIndex: number,
-  setPlayIndex: React.Dispatch<React.SetStateAction<number>>
+	playId: number
+	isPlaying: boolean
+	sortedResults: song[]
+	filterResults: boolean[]
+	playlistItemIds: Set<number>
+	handlePlaybackClick: (id: number) => void
+	handleTogglePlaylistClick: (id: number) => void
 }
 
 export const MainView = (props: IMainViewProps) => {
-  const {
-    playIndex,
-    setPlayIndex
-  } = props;
+	const {
+		playId,
+		isPlaying,
+		sortedResults,
+		filterResults,
+		playlistItemIds,
+		handlePlaybackClick,
+		handleTogglePlaylistClick,
+	} = props
 
-  const onPlaybackClick = (index: number) => {
-    playIndex === index ? setPlayIndex(-1) : setPlayIndex(index)
-  }
-
-  const onAddClick = (index: number) => {
-
-  }
-
-  return (
-    <div className="main-view">
-      {songData.map((song, index) => {
-        return (
-          <SongCard 
-            key={index}
-            song={song}
-            index={index}
-            playing={playIndex === index}
-            handlePlaybackClick={() => onPlaybackClick(index)}
-            handleAddClick={() => onAddClick(index)}
-          />
-        )
-      })}
-    </div>
-  )
+	return (
+		<div className="main-view">
+			{sortedResults.map((song, index) => {
+				return filterResults[index] ? (
+					<SongCard
+						key={song.id}
+						song={song}
+						isCurrentSong={playId === song.id}
+						isPlaying={isPlaying}
+						handlePlaybackClick={() => handlePlaybackClick(song.id)}
+						isAdded={playlistItemIds.has(song.id)}
+						handleTogglePlaylistClick={() => handleTogglePlaylistClick(song.id)}
+					/>
+				) : (
+					<></>
+				)
+			})}
+		</div>
+	)
 }
