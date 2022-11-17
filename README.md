@@ -1,8 +1,8 @@
-# Development
+# Playlister
 
 ### Link to Deployed Website
 
-[Playlister](https://sadserval000.github.io/playlister/)
+[Playlister](https://mason-burke.github.io/playlister/)
 
 ### Goal and Value of the Application
 
