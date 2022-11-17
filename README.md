@@ -2,7 +2,7 @@
 
 ### Link to Deployed Website
 
-`https://sadserval000.github.io/playlister/`
+[Playlister](https://sadserval000.github.io/playlister/)
 
 ### Goal and Value of the Application
 
