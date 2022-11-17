@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/playlister/static/css/main.6255a487.css",
-    "main.js": "/playlister/static/js/main.921a290e.js",
+    "main.js": "/playlister/static/js/main.379fd887.js",
     "static/media/Aileron-Light.ttf": "/playlister/static/media/Aileron-Light.2d2d87cc37e44c792462.ttf",
     "static/media/Aileron-Italic.ttf": "/playlister/static/media/Aileron-Italic.e32d4e17110f19c5b61c.ttf",
     "static/media/Aileron-Bold.ttf": "/playlister/static/media/Aileron-Bold.bc515940d91f901d8a4c.ttf",
     "static/media/Aileron-Black.ttf": "/playlister/static/media/Aileron-Black.6a12bcd78050fec2e25a.ttf",
     "index.html": "/playlister/index.html",
     "main.6255a487.css.map": "/playlister/static/css/main.6255a487.css.map",
-    "main.921a290e.js.map": "/playlister/static/js/main.921a290e.js.map"
+    "main.379fd887.js.map": "/playlister/static/js/main.379fd887.js.map"
   },
   "entrypoints": [
     "static/css/main.6255a487.css",
-    "static/js/main.921a290e.js"
+    "static/js/main.379fd887.js"
   ]
 }
